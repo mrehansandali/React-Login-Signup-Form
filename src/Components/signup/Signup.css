@@ -1,0 +1,59 @@
+.fullwidSI{
+    background-color: rgb(240, 241, 253);
+}
+.mrsignupForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    font-family: sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+.logofont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 4%;
+    top: 3.8%;
+}
+.logofont img{
+    width: 1.5rem;
+}
+.logotext h1{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+}
+
+@media (max-width:600px) {
+    .mrsignupForm{
+        padding: 2rem;
+    }
+    .mrbtn{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .mrbtn button {
+        margin: 0;
+        margin-top: 4rem;
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem 0rem;
+        border-radius: 0.5rem;
+    }
+    .fullwidSI{
+        width: 100vw;
+    }
+}

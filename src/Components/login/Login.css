@@ -1,0 +1,149 @@
+.mrloginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+    border-radius: 2.5rem;
+    padding: 2rem 5rem;
+    font-family: sans-serif;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgb(240, 241, 253);
+}
+.fullwidLI{
+    background-color: rgb(149, 164, 193);
+}
+.mrinputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.mrinputs label {
+    font-size: 1.3rem;
+}
+
+.mrinputs input::placeholder {
+    font-size: 1rem;
+    color: #E2E8F0;
+}
+
+.mrinputs input {
+    width: 25rem;
+    height: 5vh;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #E2E8F0;
+}
+
+.logoimg {
+    margin-bottom: 2rem;
+}
+
+.logoimg img {
+    width: 9rem;
+}
+
+.mrbtn button {
+    border: none;
+    font-size: 1.5rem;
+    background-color: #1F1F1F;
+    color: white;
+    padding: 0.2rem 1.5rem;
+    border-radius: 2rem;
+    margin: 1.5rem 0;
+}
+
+.mrloginlink a {
+    text-decoration: none;
+    color: blue;
+}
+
+.mrloginlink p {
+    color: black;
+}
+.mrforgotpass a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1rem;
+}
+.mruppercontent{
+    height: 50vh;
+    position: relative;
+}
+.mruppercontent img{
+    position: absolute;
+}
+#img2{
+    width: 19rem;
+    top: 9%;
+    right: 7%;
+}
+#dummy{
+    width: 11rem;
+    top: 15%;
+    right: 23%;
+}
+
+
+
+
+
+@media (max-width:600px) {
+    .mrinputs {
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+    .mrinputs input {
+        width: auto;
+        height: 7vh;
+        padding: 0rem 1.5rem;
+        border: 2px solid grey;
+    }
+    .mrloginForm {
+        padding: 1rem 1.8rem;
+    }
+
+    .mrinputs label {
+        display: none;
+    }
+    .mrinputs input::placeholder {
+        font-size: 1.3rem;
+        color: rgb(186, 182, 182);
+    }
+    .logoimg {
+        margin: 0;
+    }
+    .mrbtn{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .mrbtn button {
+        margin: 0;
+        margin-top: 4rem;
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem 0rem;
+        border-radius: 0.5rem;
+    }
+    .mrforgotpass{
+        margin-left: auto;
+        margin-top: 1rem;
+    }
+    .mrforgotpass a{
+        text-decoration: none;
+        color: blue;
+        font-size: 1rem;
+    }
+    .mrloginlink p{
+        margin: 0;
+    }
+    .mrloginlink{
+        display: flex;
+        align-items: center;
+        font-size: 0.7rem;
+        margin-top: 1rem;
+        box-sizing: border-box !important;
+    }
+}
